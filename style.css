@@ -1,0 +1,170 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: #4d089a;
+    overflow: auto;
+    /* background-color: #333; */
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    max-width: 85%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    animation: fadeIn 0.3s ease-in-out;
+    /* border: 2px solid black;
+    border-radius: 5px; */
+    /* box-shadow: 0 0 5px 2px; */
+}
+
+
+#text {
+    padding: 18px 0;
+    font-size: 18px;
+    width: 100%;
+    /* border-top: 2px solid white;
+    border-bottom: 2px solid white; */
+    /* background-color: #000104; */
+}
+
+#svgDiv {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+#option-buttons {
+    /* display: flex;
+    flex-direction: column; */
+    /* flex-wrap: wrap; */
+    padding: 10px 0;
+    /* border: 1px solid green; */
+    width: 100%;
+    /* height: 100%; */
+    
+    /* overflow: auto; */
+}
+
+.option-btn {
+    /* display: inline-block; */
+    outline: none;
+    margin-right: 12px;
+    font-size: 14px;
+    /* width: 180px; */
+    min-height: 40px;
+    color: #43d8c9;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: rgb(221,221,221, 0.5);
+    cursor: pointer;
+    
+}
+
+.finalOption {
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(221,221,221, 0.5);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.finalOption.selected {
+    /* background-color: pink;
+    display: inline; */
+    border: 4px solid #dc2ade;
+    background-color: #43d8c9;
+    color: white;
+}
+
+.option-btn:hover {
+    color: black;
+    border: 4px solid #dc2ade;
+    background-color: #e8f044;
+    
+}
+
+.option-btn.selected {
+    background-color: #43d8c9;
+    color: #fff;
+    border: 4px solid #dc2ade;
+}
+
+.next {
+    /* display: none; */
+    border: none;
+    margin: auto;
+    color: #dc2ade;
+    width: 120px;
+    font-size: 18px;
+    visibility: hidden;
+    outline: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #e8f044;
+    align-self: center;
+    cursor: pointer;
+    transition: none;
+}
+
+.finalSceneNode {
+    border-bottom: gray dashed 2px;
+    padding: 10px 0;
+}
+
+.finalOptionsContainer {
+    padding: 12px 12px 0 12px;
+} 
+
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    
+}
+
+li {
+    /* display: inline; */
+    font-style: italic;
+    list-style: none;
+    background-color: yellow;
+    margin-bottom: 5px;
+    color: #323edd;
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* .inline {
+    display: inline-block;
+} */
+
+
+
