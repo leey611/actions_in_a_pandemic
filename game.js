@@ -148,7 +148,7 @@ let textNodes = [
             },
             {
                 text: 'Be skeptical and cautious',
-                flags: ['Taiwan'],
+                flags: ['Hong Kong', 'Taiwan'],
                 selected: false
             },
             {
@@ -174,7 +174,7 @@ let textNodes = [
             },
             {
                 text: 'Impose travel restrictions and border control',
-                flags: ['Taiwan'],
+                flags: ['Hong Kong', 'Taiwan'],
                 selected: false
             }
         ]
@@ -196,7 +196,7 @@ let textNodes = [
             },
             {
                 text: 'Ban large events, gatherings, and activities',
-                flags: ['US'],
+                flags: ['US', 'Hong Kong'],
                 selected: false
             },
             {
@@ -221,7 +221,7 @@ let textNodes = [
             },
             {
                 text: 'Implement large-scale virus testing',
-                flags: ['Bulgaria', 'Germany', 'Korea', 'Singapore', 'US'],
+                flags: ['Bulgaria', 'Germany', 'Hong Kong', 'Korea', 'Singapore', 'US'],
                 selected: false
             }
         ]
@@ -263,7 +263,7 @@ let textNodes = [
         options: [
             {
                 text: "Don't wear a mask if you are not sick",
-                flags: ['France', 'US', 'WHO'],
+                flags: ['France', 'Hong Kong', 'US', 'WHO'],
                 selected: false
             },
             {
@@ -298,6 +298,7 @@ let textNodes = [
             },
             {
                 text: 'Corporate tax deductions and low interest rate loans',
+                flags: ['Hong Kong'],
                 selected: false
             },
             {
