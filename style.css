@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     width: 100vw;
     height: 100vh;
     color: white;
@@ -18,14 +22,15 @@ body {
 
 .container {
     width: 800px;
-    height: auto;
+    /* height: auto; */
+    margin: auto;
     max-width: 85%;
     padding: 3rem 0;
     display: flex;
     align-items: flex-start;
     justify-content: start;
     flex-direction: column;
-    animation: fadeIn 0.3s ease-in-out;
+    
     /* border: 2px solid black;
     border-radius: 5px; */
     /* box-shadow: 0 0 5px 2px; */
