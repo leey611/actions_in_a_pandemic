@@ -39,7 +39,7 @@ body {
 
 #text {
     padding: 18px 0;
-    font-size: 18px;
+    font-size: 22px;
     width: 100%;
     /* border-top: 2px solid white;
     border-bottom: 2px solid white; */
@@ -71,7 +71,7 @@ body {
     /* display: inline-block; */
     outline: none;
     margin-right: 12px;
-    font-size: 14px;
+    font-size: 18px;
     /* width: 180px; */
     min-height: 40px;
     color: #43d8c9;
@@ -86,8 +86,13 @@ body {
     
 }
 
+.finalText {
+    font-size: 20px;
+}
+
 .finalOption {
     /* border: 1px solid green; */
+    font-size: 18px;
     border-radius: 5px;
     padding: 8px;
     background-color: rgb(221,221,221, 0.5);
@@ -114,14 +119,14 @@ body {
 
 .next {
     /* display: none; */
+    font-size: 20px;
     border: none;
     margin: auto;
     color: #dc2ade;
     width: 120px;
-    font-size: 18px;
     visibility: hidden;
     outline: none;
-    padding: 20px;
+    padding: 16px;
     margin-bottom: 20px;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -151,6 +156,7 @@ ul {
 
 li {
     /* display: inline; */
+    font-size: 18px;
     font-style: italic;
     list-style: none;
     background-color: yellow;

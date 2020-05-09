@@ -67,7 +67,7 @@ function showTextNode(textNodeIndex) {
         textNodes.forEach(textNode => {
             if (textNode.options) {
                 optionButtonsElement.innerHTML += `<div class="finalSceneNode">
-                                                <div>${textNode.text}</div>
+                                                <div class="finalText">${textNode.text}</div>
                                                 <div class="finalOptionsContainer">${printOptionsFinal(textNode.options)}</div>
                                             </div>`;
             
@@ -103,7 +103,7 @@ function printOptionsFinal(optionsArray) {
                                                 </div$>`
                                                  :
                                                `<div>
-                                                    <div class="finalOption">${optionsArray[i].text}:  
+                                                    <div class="finalOption">${optionsArray[i].text}  
                                                     <ul>${showPlaces(optionsArray[i])}</ul>
                                                     </div>
                                                     
