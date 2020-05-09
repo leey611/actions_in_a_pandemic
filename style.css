@@ -104,12 +104,7 @@ body {
     color: white;
 }
 
-.option-btn:hover {
-    color: black;
-    border: 4px solid #dc2ade;
-    background-color: #e8f044;
-    
-}
+
 
 .option-btn.selected {
     background-color: #43d8c9;
@@ -165,11 +160,14 @@ li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
-/* .inline {
-    display: inline-block;
-} */
+@media all and (min-width: 1000px) {
+    .option-btn:hover {
+        color: black;
+        border: 4px solid #dc2ade;
+        background-color: #e8f044;
+        
+    }
+}
 
 
 
