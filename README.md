@@ -9,7 +9,7 @@ A few multiple questions that ask about what decisions or actions one would take
 ## General info
 This project is made in my Visualizing Data class, taught by [Alvin Chang](https://alvinschang.com/).
 
-Amid the pandemic, I wanted to create a project that could show what choices one would make and how the choices vary by countires.
+Amid the pandemic, I wanted to create a project that could show what choices one would make and how the choices vary by countries.
 
 ## Technologies
 * HTML
